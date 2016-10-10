@@ -1024,3 +1024,52 @@ Stack trace:
 [09-Oct-2016 17:50:40 UTC] PHP   3. call_user_func_array:{/Users/amorcito/Documents/Websites/estimator-wp/wp-includes/plugin.php:600}() /Users/amorcito/Documents/Websites/estimator-wp/wp-includes/plugin.php:600
 [09-Oct-2016 17:50:40 UTC] PHP   4. wp_update_themes() /Users/amorcito/Documents/Websites/estimator-wp/wp-includes/plugin.php:600
 [09-Oct-2016 17:50:40 UTC] PHP   5. trigger_error() /Users/amorcito/Documents/Websites/estimator-wp/wp-includes/update.php:479
+[09-Oct-2016 18:13:06 UTC] PHP Notice:  Undefined index: HTTP_ORIGIN in /Users/amorcito/Documents/Websites/estimator-wp/wp-content/themes/estimator/functions.php on line 5
+[09-Oct-2016 18:13:06 UTC] PHP Stack trace:
+[09-Oct-2016 18:13:06 UTC] PHP   1. {main}() /Users/amorcito/Documents/Websites/estimator-wp/index.php:0
+[09-Oct-2016 18:13:06 UTC] PHP   2. require() /Users/amorcito/Documents/Websites/estimator-wp/index.php:17
+[09-Oct-2016 18:13:06 UTC] PHP   3. wp() /Users/amorcito/Documents/Websites/estimator-wp/wp-blog-header.php:16
+[09-Oct-2016 18:13:06 UTC] PHP   4. WP->main() /Users/amorcito/Documents/Websites/estimator-wp/wp-includes/functions.php:963
+[09-Oct-2016 18:13:06 UTC] PHP   5. WP->parse_request() /Users/amorcito/Documents/Websites/estimator-wp/wp-includes/class-wp.php:725
+[09-Oct-2016 18:13:06 UTC] PHP   6. do_action_ref_array() /Users/amorcito/Documents/Websites/estimator-wp/wp-includes/class-wp.php:386
+[09-Oct-2016 18:13:06 UTC] PHP   7. call_user_func_array:{/Users/amorcito/Documents/Websites/estimator-wp/wp-includes/plugin.php:600}() /Users/amorcito/Documents/Websites/estimator-wp/wp-includes/plugin.php:600
+[09-Oct-2016 18:13:06 UTC] PHP   8. rest_api_loaded() /Users/amorcito/Documents/Websites/estimator-wp/wp-includes/plugin.php:600
+[09-Oct-2016 18:13:06 UTC] PHP   9. WP_REST_Server->serve_request() /Users/amorcito/Documents/Websites/estimator-wp/wp-includes/rest-api.php:147
+[09-Oct-2016 18:13:06 UTC] PHP  10. apply_filters() /Users/amorcito/Documents/Websites/estimator-wp/wp-includes/rest-api/class-wp-rest-server.php:377
+[09-Oct-2016 18:13:06 UTC] PHP  11. call_user_func_array:{/Users/amorcito/Documents/Websites/estimator-wp/wp-includes/plugin.php:235}() /Users/amorcito/Documents/Websites/estimator-wp/wp-includes/plugin.php:235
+[09-Oct-2016 18:13:06 UTC] PHP  12. rest_send_cors_headers() /Users/amorcito/Documents/Websites/estimator-wp/wp-includes/plugin.php:235
+[09-Oct-2016 18:13:06 UTC] PHP  13. get_http_origin() /Users/amorcito/Documents/Websites/estimator-wp/wp-includes/rest-api.php:392
+[09-Oct-2016 18:13:06 UTC] PHP  14. apply_filters() /Users/amorcito/Documents/Websites/estimator-wp/wp-includes/http.php:405
+[09-Oct-2016 18:13:06 UTC] PHP  15. call_user_func_array:{/Users/amorcito/Documents/Websites/estimator-wp/wp-includes/plugin.php:235}() /Users/amorcito/Documents/Websites/estimator-wp/wp-includes/plugin.php:235
+[09-Oct-2016 18:13:06 UTC] PHP  16. Estimator\{closure}() /Users/amorcito/Documents/Websites/estimator-wp/wp-includes/plugin.php:235
+[09-Oct-2016 18:32:50 UTC] PHP Notice:  Undefined index: HTTP_ORIGIN in /Users/amorcito/Documents/Websites/estimator-wp/wp-content/themes/estimator/functions.php on line 5
+[09-Oct-2016 18:32:50 UTC] PHP Stack trace:
+[09-Oct-2016 18:32:50 UTC] PHP   1. {main}() /Users/amorcito/Documents/Websites/estimator-wp/index.php:0
+[09-Oct-2016 18:32:50 UTC] PHP   2. require() /Users/amorcito/Documents/Websites/estimator-wp/index.php:17
+[09-Oct-2016 18:32:50 UTC] PHP   3. wp() /Users/amorcito/Documents/Websites/estimator-wp/wp-blog-header.php:16
+[09-Oct-2016 18:32:50 UTC] PHP   4. WP->main() /Users/amorcito/Documents/Websites/estimator-wp/wp-includes/functions.php:963
+[09-Oct-2016 18:32:50 UTC] PHP   5. WP->parse_request() /Users/amorcito/Documents/Websites/estimator-wp/wp-includes/class-wp.php:725
+[09-Oct-2016 18:32:50 UTC] PHP   6. do_action_ref_array() /Users/amorcito/Documents/Websites/estimator-wp/wp-includes/class-wp.php:386
+[09-Oct-2016 18:32:50 UTC] PHP   7. call_user_func_array:{/Users/amorcito/Documents/Websites/estimator-wp/wp-includes/plugin.php:600}() /Users/amorcito/Documents/Websites/estimator-wp/wp-includes/plugin.php:600
+[09-Oct-2016 18:32:50 UTC] PHP   8. rest_api_loaded() /Users/amorcito/Documents/Websites/estimator-wp/wp-includes/plugin.php:600
+[09-Oct-2016 18:32:50 UTC] PHP   9. WP_REST_Server->serve_request() /Users/amorcito/Documents/Websites/estimator-wp/wp-includes/rest-api.php:147
+[09-Oct-2016 18:32:50 UTC] PHP  10. apply_filters() /Users/amorcito/Documents/Websites/estimator-wp/wp-includes/rest-api/class-wp-rest-server.php:377
+[09-Oct-2016 18:32:50 UTC] PHP  11. call_user_func_array:{/Users/amorcito/Documents/Websites/estimator-wp/wp-includes/plugin.php:235}() /Users/amorcito/Documents/Websites/estimator-wp/wp-includes/plugin.php:235
+[09-Oct-2016 18:32:50 UTC] PHP  12. rest_send_cors_headers() /Users/amorcito/Documents/Websites/estimator-wp/wp-includes/plugin.php:235
+[09-Oct-2016 18:32:50 UTC] PHP  13. get_http_origin() /Users/amorcito/Documents/Websites/estimator-wp/wp-includes/rest-api.php:392
+[09-Oct-2016 18:32:50 UTC] PHP  14. apply_filters() /Users/amorcito/Documents/Websites/estimator-wp/wp-includes/http.php:405
+[09-Oct-2016 18:32:50 UTC] PHP  15. call_user_func_array:{/Users/amorcito/Documents/Websites/estimator-wp/wp-includes/plugin.php:235}() /Users/amorcito/Documents/Websites/estimator-wp/wp-includes/plugin.php:235
+[09-Oct-2016 18:32:50 UTC] PHP  16. Estimator\{closure}() /Users/amorcito/Documents/Websites/estimator-wp/wp-includes/plugin.php:235
+[10-Oct-2016 02:52:16 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/amorcito/Documents/Websites/estimator-wp/wp-includes/rest-api/class-wp-rest-request.php on line 800
+[10-Oct-2016 02:52:16 UTC] PHP Stack trace:
+[10-Oct-2016 02:52:16 UTC] PHP   1. {main}() /Users/amorcito/Documents/Websites/estimator-wp/index.php:0
+[10-Oct-2016 02:52:16 UTC] PHP   2. require() /Users/amorcito/Documents/Websites/estimator-wp/index.php:17
+[10-Oct-2016 02:52:16 UTC] PHP   3. wp() /Users/amorcito/Documents/Websites/estimator-wp/wp-blog-header.php:16
+[10-Oct-2016 02:52:16 UTC] PHP   4. WP->main() /Users/amorcito/Documents/Websites/estimator-wp/wp-includes/functions.php:963
+[10-Oct-2016 02:52:16 UTC] PHP   5. WP->parse_request() /Users/amorcito/Documents/Websites/estimator-wp/wp-includes/class-wp.php:725
+[10-Oct-2016 02:52:16 UTC] PHP   6. do_action_ref_array() /Users/amorcito/Documents/Websites/estimator-wp/wp-includes/class-wp.php:386
+[10-Oct-2016 02:52:16 UTC] PHP   7. call_user_func_array:{/Users/amorcito/Documents/Websites/estimator-wp/wp-includes/plugin.php:600}() /Users/amorcito/Documents/Websites/estimator-wp/wp-includes/plugin.php:600
+[10-Oct-2016 02:52:16 UTC] PHP   8. rest_api_loaded() /Users/amorcito/Documents/Websites/estimator-wp/wp-includes/plugin.php:600
+[10-Oct-2016 02:52:16 UTC] PHP   9. WP_REST_Server->serve_request() /Users/amorcito/Documents/Websites/estimator-wp/wp-includes/rest-api.php:147
+[10-Oct-2016 02:52:16 UTC] PHP  10. WP_REST_Server->dispatch() /Users/amorcito/Documents/Websites/estimator-wp/wp-includes/rest-api/class-wp-rest-server.php:326
+[10-Oct-2016 02:52:16 UTC] PHP  11. WP_REST_Request->sanitize_params() /Users/amorcito/Documents/Websites/estimator-wp/wp-includes/rest-api/class-wp-rest-server.php:871
